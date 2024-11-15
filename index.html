@@ -23,7 +23,7 @@
 
                 <h1 id="titre_formulaire">Grille d'auto-évaluation</h1>
 
-                <form id="formulaire_examen">
+                <form id="formulaire_examen" action="https://designweb-production.up.railway.app/submit" method="POST"onsubmit="return ValidationOnSubmit()">
                     
                     <div class="ligne_formulaire ligne_deux_colonnes">
                         <div class="colonne_gauche">
@@ -45,7 +45,7 @@
                         </div>
                         
                     </div>    
-                  
+                    
                     <div class="ligne_formulaire ligne_deux_colonnes">
                         <div class="colonne_gauche">
                             <label for='note_estime' class="titre_saisie" id="titre_note_estime">Ma note estimée = 60 %</label>
